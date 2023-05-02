@@ -4,8 +4,10 @@ public class Main {
 
         Scanner ler = new Scanner(System.in);
         int dia = 0;
-
-        System.out.print("Digite o dia em formato numerico (domingo sendo 1 e sabado sendo 7) para marcar a consulta: ");
+        
+        //Simulação de programa para marcar consultas
+        
+        System.out.print("Digite o dia em formato numerico (sendo domingo o dia 1 e sabado dia 7) para marcar a consulta: ");
         dia = ler.nextInt();
 
         switch (dia){
