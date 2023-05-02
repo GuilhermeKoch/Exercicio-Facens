@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args){
+
+        Scanner ler = new Scanner(System.in);
+        int dia = 0;
+
+        System.out.print("Digite o dia em formato numerico (domingo sendo 1 e sabado sendo 7) para marcar a consulta: ");
+        dia = ler.nextInt();
+
+        switch (dia){
+            case 1:
+                System.out.print("Consulta marcada para Domingo"); break;
+            case 2:
+                System.out.print("Consulta marcada para Segunda"); break;
+            case 3:
+                System.out.print("Consulta marcada para Terça"); break;
+            case 4:
+                System.out.print("Consulta marcada para Quarta"); break;
+            case 5:
+                System.out.print("Consulta marcada para Quinta"); break;
+            case 6:
+                System.out.print("Consulta marcada para Sexta"); break;
+            case 7:
+                System.out.print("Consulta marcada para Sabado"); break;
+        }
+    }
+}
