@@ -1,2 +1,3 @@
-# Constru-o-de-Algoritmos---
-Códigos feitos na aula de Construção de Algoritmos no curso de Analise e Desenvolvimento de Sistemas da FACENS (Faculdade de Engenharia de Sorocaba)
+# POOFacens
+Códigos feitos nas aulas de POO no curso de Análise e Desenvolvimento de Sistemas da FACENS (Faculdade de Engenharia de Sorocaba)
+Códigos feitos por Guilherme de Oliveira Koch
