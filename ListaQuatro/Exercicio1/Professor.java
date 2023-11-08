@@ -1,8 +1,5 @@
 package ListaQuatro.Exercicio1;
 
-import ListaQuatro.Exercicio1.Disciplina;
-import ListaQuatro.Exercicio1.Funcionario;
-
 import java.util.ArrayList;
 
 public class Professor extends Funcionario {
