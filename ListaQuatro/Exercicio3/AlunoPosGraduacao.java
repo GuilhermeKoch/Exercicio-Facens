@@ -93,7 +93,7 @@ public class AlunoPosGraduacao implements Aluno {
     }
 
     @Override
-    public String Aluno(String ra, String nome, String curso) {
+    public String aluno(String ra, String nome, String curso) {
         this.ra = ra;
         this.nome = nome;
         this.curso = curso;

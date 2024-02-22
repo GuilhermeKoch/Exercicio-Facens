@@ -13,6 +13,7 @@ public class Main {
         List<Aluno> alunos = new ArrayList<>();
         List<Professor> professores = new ArrayList<>();
         List<Atendente> atendentes = new ArrayList<>();
+        @SuppressWarnings("unused")
         List<Pessoa> pessoas = new ArrayList<>();
 
         boolean Valido = false;
@@ -55,6 +56,7 @@ public class Main {
             } else if (selectValue.equals("Adicionar Disciplina ao professor")) {
                 String codigo4 = JOptionPane.showInputDialog("Digite o codigo da disciplina: ");
                 String codProf = JOptionPane.showInputDialog("Digite o n54umero de crachá: ");
+                @SuppressWarnings({ "unlikely-arg-type", "unused" })
                 boolean encontrado = disciplinas.contains(codigo4);
                 professores.add((Professor) disciplinas);
 

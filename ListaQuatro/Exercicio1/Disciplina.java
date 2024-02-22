@@ -43,6 +43,7 @@ public class Disciplina {
         disciplinas.add(professor);
     }
 
+    @SuppressWarnings("unlikely-arg-type")
     public void removerDisciplina(Professor professor) {
         disciplinas.remove(professor);
     }
