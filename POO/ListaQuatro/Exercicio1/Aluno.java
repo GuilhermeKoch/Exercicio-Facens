@@ -1,4 +1,4 @@
-package ListaQuatro.Exercicio1;
+package POO.ListaQuatro.Exercicio1;
 
 public class Aluno extends Pessoa {
 

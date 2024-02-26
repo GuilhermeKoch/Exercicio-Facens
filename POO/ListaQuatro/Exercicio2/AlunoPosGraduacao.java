@@ -1,4 +1,4 @@
-package ListaQuatro.Exercicio2;
+package POO.ListaQuatro.Exercicio2;
 
 public class AlunoPosGraduacao extends Aluno {
 

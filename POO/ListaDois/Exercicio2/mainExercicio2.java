@@ -1,4 +1,4 @@
-package ListaDois.Exercicio2;
+package POO.ListaDois.Exercicio2;
 
 public class mainExercicio2 {
     public static void main(String[] args) {

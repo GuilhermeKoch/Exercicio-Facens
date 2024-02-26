@@ -1,23 +1,18 @@
-package ListaQuatro.Exercicio3;
+package POO.ListaQuatro.Exercicio2;
 
-public class AlunoGraduacao implements Aluno {
+public class AlunoGraduacao extends Aluno {
 
     private String anoConclusaoEM;
     private double ac1;
     private double ac2;
     private double af;
     private double ag;
-    private String ra;
-    private String nome;
-    private String curso;
 
     public AlunoGraduacao() {
     }
 
     public AlunoGraduacao(String ra, String nome, String curso, String anoConclusaoEM) {
-        this.ra = ra; 
-        this.nome = nome;
-        this.curso = curso;
+        super(ra, nome, curso);
         this.anoConclusaoEM = anoConclusaoEM;
     }
 
@@ -61,45 +56,6 @@ public class AlunoGraduacao implements Aluno {
         this.ag = ag;
     }
 
-    public String getRa() {
-        return ra;
-    }
-
-    public void setRa(String ra) {
-        this.ra = ra;
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public String getCurso() {
-        return curso;
-    }
-
-    public void setCurso(String curso) {
-        this.curso = curso;
-    }
-    
-    @Override
-    public String toString() {
-        return "Nome: " + getNome() + "\nRA: " + getRa() + " \nAno de Conclusão do Ensino Médio: " + getAnoConclusaoEM()
-                + "\nNota AC1: " + getAc1() + "\nNota AC2: " + getAc2() + "\nNota AF: " + getAf()
-                + "\nNota AG: " + getAg() + "\nMédia Final: " + calcularMedia() + "\nSituação do Aluno: "
-                + verificarAprovacao();
-    }
-
-    @Override
-    public String aluno(String ra, String nome, String curso) {
-        this.ra = ra; 
-        this.nome = nome;
-        return this.curso = curso;
-    }
-
     @Override
     public double calcularMedia() {
         return (getAc1() * 0.1) + (getAc2() * 0.3) + (getAg() * 0.2) + (getAf() * 0.4);
@@ -114,6 +70,12 @@ public class AlunoGraduacao implements Aluno {
         }
     }
 
-    
+    @Override
+    public String toString() {
+        return "Nome: " + getNome() + "\nRA: " + getRa() + " \nAno de Conclusão do Ensino Médio: " + getAnoConclusaoEM()
+                + "\nNota AC1: " + getAc1() + "\nNota AC2: " + getAc2() + "\nNota AF: " + getAf()
+                + "\nNota AG: " + getAg() + "\nMédia Final: " + calcularMedia() + "\nSituação do Aluno: "
+                + verificarAprovacao();
+    }
 
 }

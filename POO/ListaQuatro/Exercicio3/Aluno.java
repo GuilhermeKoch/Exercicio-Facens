@@ -1,4 +1,4 @@
-package ListaQuatro.Exercicio3;
+package POO.ListaQuatro.Exercicio3;
 
 public interface Aluno {
 

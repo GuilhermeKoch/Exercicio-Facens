@@ -1,4 +1,4 @@
-package ListaDois.Exercicio2;
+package POO.ListaDois.Exercicio2;
 
 import javax.swing.JOptionPane;
 

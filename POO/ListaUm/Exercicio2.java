@@ -1,4 +1,4 @@
-package ListaUm;
+package POO.ListaUm;
 
 import javax.swing.JOptionPane;
 
